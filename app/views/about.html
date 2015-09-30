@@ -1,0 +1,30 @@
+<h2> About view </h2>
+
+
+<div class="'row" ng-controller="exampleCtrl">
+
+  <button ng-click="getData()">Get data</button>
+
+  <table class="table">
+    <thead>
+    <th> index
+    </th>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in albums | limitTo:50">
+      <td>{{ $index + 1 }}</td>
+      <td>{{ item.title }}</td>
+    </tr>
+    </tbody>
+  </table>
+
+
+
+  <form name="myForm" novalidate class="form" ng-submit="submitForm()">
+
+    <input type="text" name="inputText" class="form-control" ng-model="inputText" required />
+    <button type="submit" ng-disabled="myForm.$invalid" class="btn btn-primary btn-block" >Submit</button>
+
+  </form>
+
+</div>
