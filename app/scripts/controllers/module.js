@@ -12,8 +12,15 @@
       });
 
       $routeProvider.when('/about',  {
-        templateUrl: 'views/about.html'
+        templateUrl: 'views/about.html',
+        controller: 'exampleCtrl'
       });
+
+      $routeProvider.when('/data', {
+        templateUrl: 'views/data.html',
+        controller: 'dataCtrl'
+      });
+
 
       $routeProvider.otherwise( {
         redirectTo: '/'
