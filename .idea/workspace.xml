@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35405436-3620-4ea2-bdb9-db4cedae47b5" name="Default" comment="" />
+    <list default="true" id="35405436-3620-4ea2-bdb9-db4cedae47b5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/appCtrl.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/appCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AngularExerciseWorkflow.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63978493">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.45698926">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -55,8 +60,8 @@
       <file leaf-file-name="appCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/appCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.59375">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state vertical-scroll-proportion="-5.90625">
+              <caret line="9" column="119" selection-start-line="9" selection-start-column="119" selection-end-line="9" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -65,8 +70,8 @@
       <file leaf-file-name="exampleCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.25">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state vertical-scroll-proportion="-5.90625">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -90,6 +95,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -124,7 +132,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -513,6 +521,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="35405436-3620-4ea2-bdb9-db4cedae47b5" name="Default" comment="" />
@@ -520,12 +531,12 @@
       <option name="number" value="Default" />
       <updated>1443530152415</updated>
       <workItem from="1443530153718" duration="5739000" />
-      <workItem from="1443596840307" duration="4042000" />
+      <workItem from="1443596840307" duration="5446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9781000" />
+    <option name="totallyTimeSpent" value="11185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -698,26 +709,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/appCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.59375">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.90625">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/appCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.25">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.90625">
+          <caret line="9" column="119" selection-start-line="9" selection-start-column="119" selection-end-line="9" selection-end-column="119" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63978493">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding />
         </state>
       </provider>
