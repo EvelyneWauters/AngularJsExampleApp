@@ -3,16 +3,15 @@
   angular.module('exampleApp.controllers')
     .controller('exampleCtrl', ExampleCtrl);
 
-  function ExampleCtrl($scope)  {
+  function ExampleCtrl($scope, apiUrl, $http, $log)  {
     console.log('create exampleCtrl');
 
-    $scope.data = [
-      {prop:'a'},
-      {prop:'b'},
-      {prop:'c'},
-      {prop:'d'},
-      {prop:'e'}];
-
+    $scope.getData = function() {
+      $http.get(apiUrl + '/albums').then(function(response)  {
+        $log.debug(response);
+        $scope.albums = response.data;
+      });
+    };
 
     $scope.submitForm = function()  {
       console.log("input: " + $scope.inputText);

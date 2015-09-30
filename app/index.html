@@ -36,27 +36,17 @@
 
   <div class="'row" ng-controller="exampleCtrl">
 
+<button ng-click="getData()">Get data</button>
 
     <table class="table">
       <thead>
       <th> index
-        <td>element</td>
-        <td>first?</td>
-        <td>last?</td>
-        <td>middle?</td>
-        <td>even?</td>
-        <td>odd?</td>
       </th>
       </thead>
       <tbody>
-      <tr ng-repeat="item in data">
-        <td>{{ $index }}</td>
-        <td>{{ item.prop }}</td>
-        <td>  {{ $first }}</td>
-        <td>  {{ $last }}</td>
-        <td>  {{ $middle }}</td>
-        <td>  {{ $even }}</td>
-        <td>  {{ $odd }}</td>
+      <tr ng-repeat="item in albums | limitTo:50">
+        <td>{{ $index + 1 }}</td>
+        <td>{{ item.title }}</td>
       </tr>
       </tbody>
     </table>
@@ -70,9 +60,7 @@
 
     </form>
 
-
-    this doesn't work :(
-    <select ng-options="items.prop for item in item.data"></select>
+  <p> Currency: {{cur | currency }}</p>
 
   </div>
 </div>
@@ -92,6 +80,7 @@
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <!-- endbower -->
+  <script src="bower_components/angular-i18n/angular-locale_nl-be.js"></script>
 <!-- endbuild -->
 
   <!-- build:js({.tmp,app}) scripts/scripts.js -->
