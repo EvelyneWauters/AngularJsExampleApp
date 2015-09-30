@@ -22,7 +22,9 @@
   <!--<p>{{ 1 + 1 }}</p>-->
 
 <div class = "container">
-  <h1 class = "page-header"> {{ title }} </h1>
+  <h1 class = "page-header"> {{ title || 'Not available' }} </h1>
+
+  <input type="text" ng-model="title"/>
 
   <button ng-click="sendEvent()" class="btn btn-primar btn-block">Click me</button>
 
@@ -34,6 +36,10 @@
     <p>{{ message }}</p>
   </div>
 </div>
+
+
+
+
 
 
 

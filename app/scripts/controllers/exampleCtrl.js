@@ -8,6 +8,7 @@
 
     $scope.$on('userclicked', function(event, data) {
       console.log(data);
+      console.log(event);
       $scope.message = data.number;
     })
   }

@@ -9,5 +9,11 @@
     $scope.sendEvent = function() {
       $scope.$broadcast('userclicked', {number : 123});   //object meegeven om later te tonen dat we daar nog aankunnen
     }
+
+    $scope.$watch('title', function(newValue, oldValue)  {
+      console.log('old: '+ oldValue);
+      console.log('new: '+ newValue);
+
+    });
   }
 })();
