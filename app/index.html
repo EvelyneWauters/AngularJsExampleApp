@@ -20,17 +20,36 @@
 
 
 <div class = "container">
-  <h1 class = "page-header"> {{ appCtrlAlias.title || 'Not available' }} </h1>
+  <h1 class = "page-header"> {{ ::appCtrlAlias.title || 'Not available' }} </h1>
 
 
-  <button ng-click="sendEvent()" class="btn btn-primar btn-block">Click me</button>
+  <div class="'row" ng-controller="exampleCtrl">
 
-  <div class="row" ng-controller="exampleCtrl">
-    <p>{{ message }}</p>
-  </div>
+    <input type="checkbox" ng-model="showTable"/>
 
-  <div class="row" ng-controller="exampleCtrl">
-    <p>{{ message }}</p>
+    <table class="table" ng-show="showTable">
+      <thead>
+      <th> index
+        <td>element</td>
+        <td>first?</td>
+        <td>last?</td>
+        <td>middle?</td>
+        <td>even?</td>
+        <td>odd?</td>
+      </th>
+      </thead>
+      <tbody>
+      <tr ng-repeat="item in data">
+        <td>{{ $index }}</td>
+        <td>{{ item.prop }}</td>
+        <td>  {{ $first }}</td>
+        <td>  {{ $last }}</td>
+        <td>  {{ $middle }}</td>
+        <td>  {{ $even }}</td>
+        <td>  {{ $odd }}</td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
