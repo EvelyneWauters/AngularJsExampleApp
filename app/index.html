@@ -14,6 +14,17 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+
+  <style>
+    input[type='text'].ng-dirty.ng-invalid {
+      background-color: hotpink;
+    }
+
+    input[type='text'].ng-dirty.ng-valid {
+      background-color: greenyellow;
+    }
+
+  </style>
 </head>
 <body ng-controller="appCtrl as appCtrlAlias">
 <div class="container">
@@ -25,9 +36,8 @@
 
   <div class="'row" ng-controller="exampleCtrl">
 
-    <input type="checkbox" ng-model="showTable"/>
 
-    <table class="table" ng-if="showTable">
+    <table class="table">
       <thead>
       <th> index
         <td>element</td>
@@ -50,6 +60,20 @@
       </tr>
       </tbody>
     </table>
+
+
+
+    <form name="myForm" novalidate class="form" ng-submit="submitForm()">
+
+      <input type="text" name="inputText" class="form-control" ng-model="inputText" required />
+      <button type="submit" ng-disabled="myForm.$invalid" class="btn btn-primary btn-block" >Submit</button>
+
+    </form>
+
+
+    this doesn't work :(
+    <select ng-options="items.prop for item in item.data"></select>
+
   </div>
 </div>
 

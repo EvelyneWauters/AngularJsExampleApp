@@ -13,6 +13,11 @@
       {prop:'d'},
       {prop:'e'}];
 
+
+    $scope.submitForm = function()  {
+      console.log("input: " + $scope.inputText);
+    } ;
+
     $scope.$on('userclicked', function(event, data) {
       console.log(data);
       console.log(event);
