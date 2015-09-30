@@ -15,16 +15,13 @@
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
-<body ng-controller="appCtrl">
+<body ng-controller="appCtrl as appCtrlAlias">
 <div class="container">
 
-  <!--om even te checken of alles juist is geimplementeerd van modules-->
-  <!--<p>{{ 1 + 1 }}</p>-->
 
 <div class = "container">
-  <h1 class = "page-header"> {{ title || 'Not available' }} </h1>
+  <h1 class = "page-header"> {{ appCtrlAlias.title || 'Not available' }} </h1>
 
-  <input type="text" ng-model="title"/>
 
   <button ng-click="sendEvent()" class="btn btn-primar btn-block">Click me</button>
 
