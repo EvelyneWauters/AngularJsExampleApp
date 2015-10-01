@@ -5,6 +5,7 @@
   function AppCtrl($scope, appTitle, $location)  {
     $scope.title = appTitle;                //deze var is nu op de scope aanwezig onder de naam 'title'
 
+    $scope.value = 'this value is defined in the appCtrl';
 
     $scope.goto = function() {
       $location.path('/data/456');
