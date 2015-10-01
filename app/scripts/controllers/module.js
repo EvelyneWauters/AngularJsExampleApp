@@ -2,7 +2,7 @@
 
 (function() {
 
-  angular.module('exampleApp.controllers', ['exampleApp.config', 'ngRoute', 'exampleApp.services'])
+  angular.module('exampleApp.controllers', ['exampleApp.config', 'ngRoute', 'exampleApp.services', 'exampleApp.directives'])
 
   .config(function(apiUrl, $routeProvider, backendServiceProvider)  {     //hier backendServiceProvider (zelf niet gemaakt, Angular doet dit zelf (naam service + 'provider')
     console.log('controllers module config' + apiUrl);
