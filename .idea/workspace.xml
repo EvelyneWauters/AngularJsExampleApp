@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="35405436-3620-4ea2-bdb9-db4cedae47b5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/backendService.js" afterPath="$PROJECT_DIR$/app/scripts/services/backendService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/module.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/module.js" afterPath="$PROJECT_DIR$/app/scripts/services/module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AngularExerciseWorkflow.iws" />
@@ -68,8 +70,8 @@
       <file leaf-file-name="exampleCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.78125">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="30" />
+            <state vertical-scroll-proportion="-3.71875">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,8 +80,8 @@
       <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.625">
-              <caret line="4" column="97" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="97" />
+            <state vertical-scroll-proportion="-5.25">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,8 +90,8 @@
       <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.875">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.0625">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,8 +100,8 @@
       <file leaf-file-name="backendService.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/backendService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49122807">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5263158">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -160,8 +162,8 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/appCtrl.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/module.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/module.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/module.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js" />
         <option value="$PROJECT_DIR$/app/scripts/services/backendService.js" />
       </list>
@@ -640,7 +642,7 @@
       <updated>1443530152415</updated>
       <workItem from="1443530153718" duration="5739000" />
       <workItem from="1443596840307" duration="21322000" />
-      <workItem from="1443683554929" duration="10010000" />
+      <workItem from="1443683554929" duration="11123000" />
     </task>
     <task id="LOCAL-00001" summary="Scope communication, broadcast() and on() functions. Added a button to show the effects of the clicklistener">
       <created>1443602390480</created>
@@ -714,11 +716,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443703768517</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="custom service using service method (not working)">
+      <created>1443705120521</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1443705120521</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37071000" />
+    <option name="totallyTimeSpent" value="38184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -766,7 +774,8 @@
     <MESSAGE value="commit before starting chapter about customization" />
     <MESSAGE value="ngannotate (in de build taak) handmatig implementeren" />
     <MESSAGE value="custom service using factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom service using factory" />
+    <MESSAGE value="custom service using service method (not working)" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom service using service method (not working)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -782,7 +791,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1443705015739" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443706120503" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -864,7 +873,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
-            <marker date="1443705015739" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443706120503" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -973,7 +982,7 @@
         <state vertical-scroll-proportion="-6.724138">
           <caret line="46" column="20" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <marker date="1443705015739" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1443706120503" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -986,26 +995,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.875">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.125">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/appCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.53125">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1026,6 +1019,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/appCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.53125">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.71875">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0625">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.25">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.125">
@@ -1034,26 +1059,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/exampleCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.78125">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.625">
-          <caret line="4" column="97" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/services/backendService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49122807">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5263158">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding />
         </state>
       </provider>

@@ -1,22 +1,32 @@
 (function () {
 
   angular.module('exampleApp.services')
-    .factory('backendService', function ($http, apiUrl, $q) {     //nu met de service methode geimplementeerd
+    .provider('backendService', function () {
+        var url;
 
-        this.getAlbums= function () {
+      //dit geeft een provider terug
+      return {
 
-          var defer = $q.defer();
+        //bijkomende functie om de service te configureren
+        setApiUrl: function(apiUrl) {
+          url = apiUrl;
+        },
 
+        $get: function ($http, $q) {
+          //dit geeft een service terug, dus hier moeten $http en $q geïnjecteerd worden
+          return {
 
-          $http.get(apiUrl + '/albums').then(function (response) {
-            var albums = response.data;
-            defer.resolve(albums);
-          });
-
-          return defer.promise;
-
+            getAlbums: function ($http) {
+              var defer = $q.defer();
+              $http.get(url + '/albums').then(function (response) {
+                defer.resolve(response.data);
+              });
+              return defer.promise;
+            }
+          }
         }
 
+      }
 
     });
 })();
