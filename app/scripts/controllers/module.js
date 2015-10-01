@@ -2,7 +2,7 @@
 
 (function() {
 
-  angular.module('exampleApp.controllers', ['exampleApp.config', 'ngRoute'])
+  angular.module('exampleApp.controllers', ['exampleApp.config', 'ngRoute', 'exampleApp.services'])
 
   .config(function(apiUrl, $routeProvider)  {
     console.log('controllers module config' + apiUrl);

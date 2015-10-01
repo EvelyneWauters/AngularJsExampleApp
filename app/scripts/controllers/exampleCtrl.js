@@ -3,13 +3,12 @@
   angular.module('exampleApp.controllers')
     .controller('exampleCtrl', ExampleCtrl);
 
-  function ExampleCtrl($scope, apiUrl, $http, $log)  {
+  function ExampleCtrl($scope, $log, backendService)  {
     console.log('create exampleCtrl');
 
     $scope.getData = function() {
-      $http.get(apiUrl + '/albums').then(function(response)  {
-        $log.debug(response);
-        $scope.albums = response.data;
+      backendService.getAlbums().then(function(data)  {      //dit wordt een asynchrone operatie, dus hier gebruik maken van de $q - service (zie backendservice)
+        $scope.albums = data;
       });
     };
 

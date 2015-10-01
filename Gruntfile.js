@@ -451,11 +451,13 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:dist',
     'wiredep',
+    'angularFileLoader',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
     'ngtemplates',
     'concat',
+    'ngAnnotate',
     'copy:dist',
     'cdnify',
     'cssmin',
