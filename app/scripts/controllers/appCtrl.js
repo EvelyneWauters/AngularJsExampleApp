@@ -7,7 +7,7 @@
 
 
     this.goto = function() {
-      $location.path('/data');
+      $location.path('/data/456');
     }
   }
 })();

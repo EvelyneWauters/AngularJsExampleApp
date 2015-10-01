@@ -16,7 +16,7 @@
         controller: 'exampleCtrl'
       });
 
-      $routeProvider.when('/data', {
+      $routeProvider.when('/data/:exampleArg', {
         templateUrl: 'views/data.html',
         controller: 'dataCtrl'
       });

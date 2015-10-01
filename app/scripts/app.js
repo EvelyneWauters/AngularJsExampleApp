@@ -2,7 +2,7 @@
 
 (function() {
 
-  angular.module('exampleApp', ['exampleApp.controllers'])
+    angular.module('exampleApp', ['exampleApp.controllers'])
 
     .config(function()  {
       console.log('app config');
