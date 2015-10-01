@@ -1,11 +1,9 @@
 (function () {
 
   angular.module('exampleApp.services')
-    .factory('backendService', function ($http, apiUrl, $q) {     //de factory methode geeft een object terug, dus return {}
+    .factory('backendService', function ($http, apiUrl, $q) {     //nu met de service methode geimplementeerd
 
-      return {
-
-        getAlbums: function () {
+        this.getAlbums= function () {
 
           var defer = $q.defer();
 
@@ -19,7 +17,6 @@
 
         }
 
-      }
 
     });
 })();
